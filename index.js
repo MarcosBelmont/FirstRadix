@@ -9,4 +9,4 @@ app.get('/', (req,res)=> {
     res.send('Hello Radix');
 })
 
-app.listen(PORT);
+app.listen(PORT,HOST);
